@@ -1,0 +1,8 @@
+/* CSS Document */
+
+.prihlaseni {padding-top:50px;text-align:center;background:#f5f5f5;width:400px;margin-left:auto;margin-right:auto;height:800px}
+body {text-align:center}
+a.tlacitko {padding: .5em; background: #d3d3d3; border: 1px solid #d3d3d3; color: #000000; cursor: default; text-decoration: none; border-radius: 5px}
+a.tlacitko:hover {background: #c0c0c0}
+a.tlacitko:active {position: relative; top: 1px; left: 1px}
+.odkazregistr {margin-top:200px}

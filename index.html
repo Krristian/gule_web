@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang='cs'>
+  <head>
+    <title></title>
+    <meta charset='utf-8'>
+    <meta name='description' content=''>
+    <meta name='keywords' content=''>
+    <meta name='author' content=''>
+    <meta name='robots' content='all'>
+    <!-- <meta http-equiv='X-UA-Compatible' content='IE=edge'> -->
+    <link href='/favicon.png' rel='shortcut icon' type='image/png'>
+    <link rel="stylesheet" type="text/css" href="css.css">
+  </head>
+  <body>
+
+
+  <div class ="prihlaseni">
+  <h2>PŘIHLÁŠENÍ</h2>
+  <p>Email</p>
+  <input type="email" placeholder="Email" id="email" />   <br>
+  <p>Heslo</p>
+  <input type="password" placeholder="Heslo" id="password" />       <br>   <br>
+  
+  <button onclick="login()">Přihlásit se</button>
+   <!-- <button onclick="logout()">Odhlásit se</button>   -->
+  
+    <div class="odkazregistr">
+  <h2>JEŠTĚ NEMÁŠ ÚČET?</h2>
+  <a href="registrace.html" class="tlacitko">REGISTROVAT SE ZDARMA</a>
+       </div>
+  </div>
+
+
+
+
+  <script src="https://www.gstatic.com/firebasejs/5.0.2/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCKhvwtKYeiU9JziuIxV0r7ZVyAgddpy9U",
+    authDomain: "v-spapp-gule-1.firebaseapp.com",
+    databaseURL: "https://v-spapp-gule-1.firebaseio.com",
+    projectId: "v-spapp-gule-1",
+    storageBucket: "v-spapp-gule-1.appspot.com",
+    messagingSenderId: "17949889361"
+  };
+  firebase.initializeApp(config);
+</script>
+  </body>
+  
+  <script src="index.js"> </script>
+</html>
