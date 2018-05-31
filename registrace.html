@@ -12,6 +12,41 @@
     <link rel="stylesheet" type="text/css" href="css.css">
   </head>
   <body>
+  
+   <div class ="prihlaseni">
+  <h2>REGISTRACE</h2>
+  <p>Email</p>
+  <input type="email" placeholder="Email" id="email" />   <br>
+  <p>Heslo</p>
+  <input type="password" placeholder="Heslo" id="password" />       <br>   <br>
+  
+  <button onclick="registrace()">REGISTROVAT SE</button>
+  
+  
+  <div class="odkazregistr">
+  <h2>JEŠTĚ MÁŠ SVŮJ ÚČET?</h2>
+  <a href="index.html" class="tlacitko">PŘIHLÁSIT SE</a>
+       </div>
+  </div>
+  
+  
+  
+  <script src="https://www.gstatic.com/firebasejs/5.0.2/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCKhvwtKYeiU9JziuIxV0r7ZVyAgddpy9U",
+    authDomain: "v-spapp-gule-1.firebaseapp.com",
+    databaseURL: "https://v-spapp-gule-1.firebaseio.com",
+    projectId: "v-spapp-gule-1",
+    storageBucket: "v-spapp-gule-1.appspot.com",
+    messagingSenderId: "17949889361"
+  };
+  firebase.initializeApp(config);
+</script>
+
+<script src="index.js"> </script>
+  </body>
 
   </body>
 </html>
